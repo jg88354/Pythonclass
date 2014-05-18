@@ -1,0 +1,15 @@
+bread = 10
+peanut_butter = 10
+jelly = 10
+Y = 1
+
+
+while bread >=2 and peanut_butter>=1 and jelly>=1:
+	print "I'm making {0} sandwich".format(Y)
+	bread = bread - 2
+	peanut_butter = peanut_butter -1
+	jelly = jelly -1
+	Y = Y +1
+	print "I have enough jelly for {0} sandwiches, enough peanut butter for {1} sandwiches and enough bread for {2} sandwiches.".format(jelly/1, peanut_butter/1, bread/2)
+if bread >2 or peanut_butter >1 or jelly>1:
+	print "No more, go to the store."
